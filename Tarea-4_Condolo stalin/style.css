@@ -1,0 +1,41 @@
+        body{
+            margin: 0px;
+
+        } *
+        {
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: white;
+            height: 500px;
+            border: 1px solid rgb(218, 218, 218);
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .container__tittle{
+            text-align: center;
+        }
+        .input_container {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .input_container label {
+            display: block;
+        }
+        .input_container .input{
+            width: 100%;
+            border: 1px solid rgb(218, 218, 218);
+            padding: 10px;
+        }
+        .input_container .input-error{
+            color: red;
+            margin: 0px;
+        }
+        .button {
+            background-color: yellow;
+            color:rgb(39, 38, 38);
+            border-radius: 6px;
+            padding: 6px;
+        }
